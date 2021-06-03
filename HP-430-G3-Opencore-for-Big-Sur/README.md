@@ -4,9 +4,9 @@
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.4-9cf)](https://dortania.github.io/OpenCore-Install-Guide/)
 
+基于https://github.com/ryzenthreadripper9453/HP-430-G3-opencore的EFI做了修改，可以直接驱动G3上原来的intel无线网卡。
 
 
-For other versions [Click Here](https://github.com/ryzenthreadripper9453/HP-430-G3-opencore)
 
 ![](hackintosh_laptop.png)
 
@@ -15,14 +15,14 @@ OpenCore 0.6.4 setup for running Hackintosh on HP ProBook 430 G3
 ### Laptop Specifications:
 - Intel Core i5 6200U CPU (Skylake)
 - Intel HD 520 Graphics
-- 12GB DDR4-2133MHz RAM
+- 8GB DDR4-2133MHz RAM
 - 13.3 1366x768 Display
-- Dell DW1560 (BCM94352Z)
+- 原生intel无线网卡
 - Synaptics PS2 TouchPad
 - 2 USB 3.0 Ports, 1 USB 2.0 Ports
 - HDMI Port
 - SD Card Reader
-- Intel SATA SSD 180G+WD M.2 SATA 240G SSD
+- 西数SATA SSD 256G
 
 ### BIOS Setup:
 - Disable Fast Boot
@@ -52,7 +52,7 @@ OpenCore 0.6.4 setup for running Hackintosh on HP ProBook 430 G3
 - Audio Control Hotkeys
 - HDMI Video and Audio
 - Native Ethernet
-- Wifi,Bluetooth and AirDrop
+- Native Wifi
 - Native audio with AppleALC, including headphone
 - Built-in mic
 - Native power management
@@ -66,6 +66,7 @@ OpenCore 0.6.4 setup for running Hackintosh on HP ProBook 430 G3
 ### What doesn't work:
 - FingerPrint Reader
 - SD Card Reader
+- Bluetooth and AirDrop
 
 ### Warning
 - System time will be reset to 1999/12/31 08:00
