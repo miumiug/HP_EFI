@@ -4,7 +4,7 @@
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.4-9cf)](https://dortania.github.io/OpenCore-Install-Guide/)
 
-基于https://github.com/ryzenthreadripper9453/HP-430-G3-opencore的EFI做了修改，可以直接驱动G3上原来的intel无线网卡。
+基于https://github.com/ryzenthreadripper9453/HP-430-G3-opencore 的EFI做了修改，可以直接驱动G3上原来的intel无线网卡。
 
 
 
